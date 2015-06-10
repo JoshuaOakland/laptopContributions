@@ -1,6 +1,6 @@
 //Dimensions enumeration for Joust game
 
-public enum dimensions
+public enum Dimensions
 {
 	final static short lanceLength = 4; //meters
 	final static short horseHeight = 2; //meters
