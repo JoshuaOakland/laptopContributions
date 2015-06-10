@@ -1,0 +1,7 @@
+//Dimensions enumeration for Joust game
+
+enum dimensions
+{
+	final static lanceLength = 4 //meters
+	s
+}

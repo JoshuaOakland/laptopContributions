@@ -1,0 +1,25 @@
+//Spear Class for Joust in Java
+import java.util.Random;
+public class Lance 
+{
+	//Instance Variables
+	int lanceX,lanceY;
+	double lancePitch;
+	Random randomGen;
+	//Constructor
+	public Spear ()
+	{
+		randomGen = new Random();
+		System.out.println(randomGen);
+		lanceX = 0;
+		lanceY = 0;
+		lancePitch = 0;
+	}
+	//Movement Function
+	public void Wobble ()
+	{
+		lancePitch = randomGen.nextDouble();
+	}
+}
+
+
