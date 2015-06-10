@@ -1,0 +1,41 @@
+//Hitbox class for Joust
+
+public class Hitbox
+{
+	//Instance Variables
+	double locX,locY,length,width;
+	//Constructor with provided arguments
+	public Hitbox(double xVal, double yVal, double lengthValue, double widthValue)
+	{
+		locX = xVal;
+		locY = yVal;
+		length = lengthValue;
+		width = widthValue;
+	}
+	private void setLoc(double x, double y)
+	{
+		xVal = x;
+		yVal = y;
+	}
+	private void setX(double x)
+	{
+		xVal = x;
+	}
+	private void setY(double y)
+	{
+		yVal = y;
+	}
+	private double getX()
+	{
+		return xVal;
+	}
+	private double getY()
+	{
+		return yVal;
+	}
+	private void getLoc()
+	{
+		getX();
+		getY();
+	}
+}
